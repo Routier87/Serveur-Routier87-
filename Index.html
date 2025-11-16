@@ -38,12 +38,32 @@
             background: white;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
-            min-height: 400px;
         }
         footer {
             text-align: center;
             padding: 10px;
             color: #555;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .section h2 {
+            color: #333;
+        }
+        .section p {
+            color: #555;
+        }
+        .links a {
+            display: inline-block;
+            margin: 5px 10px;
+            padding: 10px 15px;
+            background: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .links a:hover {
+            background: #0056b3;
         }
     </style>
 </head>
@@ -51,43 +71,35 @@
     <header>Serveur Routier87</header>
 
     <nav>
-        <a href="#accueil">Accueil</a>
-        <a href="#boutique">Boutique</a>
-        <a href="#mods-ets2">Mods ETS2</a>
-        <a href="#mods-fs25">Mods Farming Simulator 25</a>
-        <a href="#mes-sites">Mes Sites</a>
-        <a href="#discord">Discord</a>
+        <a href="index.html">Accueil</a>
+        <a href="boutique.html">Boutique</a>
+        <a href="mods-ets2.html">Mods ETS2</a>
+        <a href="mods-fs25.html">Mods FS25</a>
+        <a href="mes-sites.html">Mes Sites</a>
+        <a href="discord.html">Discord</a>
     </nav>
 
     <main>
-        <section id="accueil">
-            <h2>Bienvenue</h2>
-            <p>Bienvenue sur le site officiel du serveur Routier87.</p>
+        <section class="section" id="accueil">
+            <h2>Bienvenue sur Serveur Routier87</h2>
+            <p>Découvrez notre communauté et profitez des mods et contenus exclusifs pour ETS2 et FS25.</p>
+            <div class="links">
+                <a href="boutique.html">Accéder à la Boutique</a>
+                <a href="mods-ets2.html">Mods ETS2</a>
+                <a href="mods-fs25.html">Mods FS25</a>
+                <a href="mes-sites.html">Voir mes sites</a>
+                <a href="discord.html">Rejoindre Discord</a>
+            </div>
         </section>
 
-        <section id="boutique">
-            <h2>Boutique</h2>
-            <p>Ici, vous pourrez retrouver notre boutique avec toutes les options et packs disponibles.</p>
+        <section class="section" id="infos">
+            <h2>À propos</h2>
+            <p>Serveur Routier87 vous offre les meilleurs mods et accessoires pour améliorer votre expérience de jeu sur Euro Truck Simulator 2 et Farming Simulator 25.</p>
         </section>
 
-        <section id="mods-ets2">
-            <h2>Mods ETS2</h2>
-            <p>Téléchargez ici les mods pour Euro Truck Simulator 2.</p>
-        </section>
-
-        <section id="mods-fs25">
-            <h2>Mods Farming Simulator 25</h2>
-            <p>Téléchargez ici les mods pour Farming Simulator 25.</p>
-        </section>
-
-        <section id="mes-sites">
-            <h2>Mes Sites</h2>
-            <p>Retrouvez ici tous les sites que j'ai réalisés.</p>
-        </section>
-
-        <section id="discord">
-            <h2>Discord</h2>
-            <p>Rejoignez notre serveur Discord : <span id="discord-link">Lien à venir</span></p>
+        <section class="section" id="news">
+            <h2>Nouveautés</h2>
+            <p>Restez à jour avec nos dernières sorties et mises à jour de mods.</p>
         </section>
     </main>
 

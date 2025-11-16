@@ -9,17 +9,20 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background: #f2f2f2;
+            background: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMTc3M3wwfDF8c2VhcmNofDF8fHRydWNrfGVufDB8fHx8MTY5OTg0NDY3Mw&ixlib=rb-4.0.3&q=80&w=1920') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
         }
         header {
-            background: #333;
+            background: rgba(0, 0, 0, 0.6);
             color: white;
             padding: 20px;
             text-align: center;
-            font-size: 2em;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px #000;
         }
         nav {
-            background: #444;
+            background: rgba(0, 0, 0, 0.5);
             display: flex;
             justify-content: center;
         }
@@ -27,43 +30,52 @@
             color: white;
             padding: 15px 20px;
             text-decoration: none;
+            font-weight: bold;
         }
         nav a:hover {
-            background: #555;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 5px;
         }
         main {
-            padding: 20px;
-            max-width: 900px;
+            padding: 40px 20px;
+            max-width: 1000px;
             margin: auto;
-            background: white;
-            border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            background: rgba(0, 0, 0, 0.6);
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.5);
         }
         footer {
             text-align: center;
-            padding: 10px;
-            color: #555;
+            padding: 20px;
+            color: #ddd;
+            background: rgba(0, 0, 0, 0.6);
+            text-shadow: 1px 1px 3px #000;
         }
         .section {
-            margin-bottom: 40px;
+            margin-bottom: 50px;
         }
         .section h2 {
-            color: #333;
+            color: #FFD700;
+            text-shadow: 1px 1px 3px #000;
         }
         .section p {
-            color: #555;
+            color: #eee;
         }
         .links a {
             display: inline-block;
-            margin: 5px 10px;
-            padding: 10px 15px;
-            background: #007BFF;
-            color: white;
+            margin: 10px 15px;
+            padding: 12px 20px;
+            background: #FFD700;
+            color: #1e3c72;
             text-decoration: none;
-            border-radius: 5px;
+            border-radius: 8px;
+            font-weight: bold;
+            box-shadow: 2px 2px 5px rgba(0,0,0,0.4);
+            transition: all 0.3s ease;
         }
         .links a:hover {
-            background: #0056b3;
+            background: #FFC300;
+            transform: translateY(-3px);
         }
     </style>
 </head>
